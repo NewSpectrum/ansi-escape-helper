@@ -32,6 +32,7 @@ The __primary goal__ for this whole project is to allow users to click on a colo
 
 #### UNIX-Based Formatting: 
 ```bash
+# Foreground Color
 \e[38;5;$(NUMBER)m
 
 # Background Color
