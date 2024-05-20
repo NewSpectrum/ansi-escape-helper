@@ -1,0 +1,54 @@
+/*★ Sans-Serif Fonts */
+
+	/*▸ Red Hat Display
+		- Category:		Sans-Serif
+		- Variable:		True
+		- Weights:		300-900
+		- Styles:		Regular
+						Italic
+		- CSS Usage:
+			font-family: "Red Hat Display", sans-serif;
+	*/	@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+	/*▸ Red Hat Text
+		- Category:		Sans-Serif
+		- Variable:		True
+		- Weights:		300-700
+		- Styles:		Regular
+						Italic
+		- CSS Usage:
+			font-family: "Red Hat Text", sans-serif;
+	*/ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/*★ Monospace Fonts */
+
+	/*▸ Fira Code
+		- Category:		Monospace
+		- Variable:		True
+		- Weights:		300-700
+		- Styles:		Regular
+						Italic
+		- CSS Usage:
+			font-family: "Fira Code", monospace;
+	*/ @import url('https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+	/*▸ Fira Mono
+		- Category:		Monospace
+		- Variable:		True
+		- Weights:		400-700
+		- Styles:		Regular
+						Italic
+		- CSS Usage:
+			font-family: "Fira Mono", monospace;
+	*/ @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+	/*▸ JetBrains Mono
+		- Category:		Monospace
+		- Variable:		True
+		- Weights:		100-700
+		- Styles:		Regular
+						Italic
+		- CSS Usage:
+			font-family: "JetBrains Mono", monospace;
+	*/ @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');

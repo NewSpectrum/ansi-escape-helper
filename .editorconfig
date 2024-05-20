@@ -1,0 +1,16 @@
+# Top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+end_of_line = lf
+
+# Web development files (HTML, JavaScript, CSS, LESS)
+[*.{html,js,css,less}]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+indent_style = tab
+indent_size = 4
