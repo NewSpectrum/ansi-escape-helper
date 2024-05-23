@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const cells = document.querySelectorAll('.ansi-table td');
+  const cells = document.querySelectorAll('.ansi-table td button');
   const infoBox = document.getElementById('info-box');
   
-  cells.forEach(cell => {
-    cell.addEventListener('click', event => {
-      const colorCode = cell.innerText.trim();
+  cells.forEach(button => {
+    button.addEventListener('click', event => {
+      event.stopPropagation();
+      const cell = button.parentElement;
+      const colorCode = button.innerText.trim();
       const colorHex = cell.getAttribute('title');
       
       infoBox.innerHTML = `
@@ -28,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   document.addEventListener('click', event => {
-    if (!infoBox.contains(event.target) && !Array.from(cells).some(cell => cell.contains(event.target))) {
+    if (!infoBox.contains(event.target) && !Array.from(cells).some(button => button.contains(event.target))) {
       infoBox.classList.add('hidden');
     }
   });
