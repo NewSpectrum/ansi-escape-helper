@@ -14,13 +14,42 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  // padding: 10px;
 }
+
+
+pre,
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+
+.code-line {
+  font-size: 85%;
+  background-color: hsl(218, 10%, 23%);
+  padding: .2em .4em;
+  border-radius: 5px;
+}
+
+
+.code-block {
+  font-size: 85%;
+  background-color: hsl(215, 21%, 11%);
+  border-radius: 10px;
+  
+}
+
+
+
 
 .interactive-table {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  max-width: 1400px;
+
+  .table-container {
+    overflow-x: auto;
+    --webkit-overflow-scrolling: touch;
+  }
 }
