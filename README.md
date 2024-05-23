@@ -38,6 +38,7 @@ The __primary goal__ for this whole project is to allow users to click on a colo
 # Background Color
 \e[48;5;$(NUMBER)m
 ```
+
 #### Windows-Based (PowerShell) Formatting:
 ```pwsh
 # Foreground Color
